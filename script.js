@@ -46,7 +46,7 @@ function beginQuiz() {
        }
 
        function questionQ2() {
-           questionId.innerHTML = questionID++;
+           questionId.innerHTML = "Question ID:" + questionID++;
            whitespace.innerHTML = "";
            equationQuestion.innerHTML = ques2Num1 + " " + "-" + " " + ques2Num2 + " " + "=" + " " + "<input type=text id=inputQ2 />" + "             " + "<button onclick=questionQ3()>Get New Question</button>";
            submitRow.innerHTML = "<button onclick=submitQ2()>Submit</button>";
@@ -66,7 +66,7 @@ function beginQuiz() {
 
 
        function questionQ3() {
-           questionId.innerHTML = questionID++;
+           questionId.innerHTML = "Question ID:" + questionID++;
            whitespace.innerHTML = "";
            equationQuestion.innerHTML = ques3Num1 + " " + "/" + " " + ques3Num2 + " " + "=" + " " + "<input type=text id=inputQ3 />" + "             " + "<button onclick=questionQ4()>Get New Question</button>";
            submitRow.innerHTML = "<button onclick=submitQ3()>Submit</button>";
@@ -85,7 +85,7 @@ function beginQuiz() {
        }
 
        function questionQ4() {
-           questionId.innerHTML = questionID++;
+           questionId.innerHTML = "Question ID:" + questionID++;
            whitespace.innerHTML = "";
            equationQuestion.innerHTML = ques4Num1 + " " + "x" + " " + ques4Num2 + " " + "=" + " " + "<input type=text id=inputQ4 />" + "             " + "<button onclick=questionQ5()>Get New Question</button>";
            submitRow.innerHTML = "<button onclick=submitQ4()>Submit</button>";
@@ -105,7 +105,7 @@ function beginQuiz() {
 
 
        function questionQ5() {
-           questionId.innerHTML = questionID++;
+           questionId.innerHTML = "Question ID:" + questionID++;
            equationQuestion.innerHTML = ques5Num1 + " " + "+" + " " + ques5Num2 + " " + "=" + " " + "<input type=text id=inputQ5 />";
            submitRow.innerHTML = "<button onclick=submitQ5()>Submit</button>";
        }
